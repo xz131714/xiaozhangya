@@ -673,8 +673,133 @@ header, .context-menu, .megamenu-content, footer{
 
 
 </style><title>Alist本地部署（Windows）</title>
+
+<style>
+#toc {
+  position: fixed;
+  top: 80px;
+  left: 20px;
+  width: 240px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: linear-gradient(135deg, #fefefe, #f4f6f9);
+  border: 1px solid #ddd;
+  padding: 1em;
+  font-size: 14px;
+  line-height: 1.4;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+#toc:hover {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+}
+#toc h2 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+#toc ul {
+  padding-left: 0;
+  margin: 0;
+}
+#toc ul li {
+  list-style: none;
+  margin: 6px 0;
+}
+#toc ul li a {
+  text-decoration: none;
+  color: #007acc;
+  padding: 4px 6px;
+  display: inline-block;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+#toc ul li a:hover {
+  background-color: #e6f4ff;
+  color: #005999;
+}
+/* 滚动条美化 */
+#toc::-webkit-scrollbar {
+  width: 6px;
+}
+#toc::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+#toc::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+</style>
+#toc {
+  position: fixed;
+  top: 80px;
+  left: 20px;
+  width: 240px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1em;
+  font-size: 14px;
+  line-height: 1.4;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+#toc h2 {
+  font-size: 16px;
+  margin-top: 0;
+}
+#toc ul {
+  padding-left: 1.2em;
+}
+#toc ul li {
+  list-style: none;
+  margin-bottom: 4px;
+}
+#toc ul li a {
+  text-decoration: none;
+  color: #337ab7;
+}
+#toc ul li a:hover {
+  text-decoration: underline;
+}
+</style>
+
 </head>
 <body class='typora-export os-windows'><div class='typora-export-content'>
 <div id='write'  class=''><h1 id='alist本地部署windows）'><span style="color:#f07c82"><span>Alist本地部署（Windows）</span></span></h1><h2 id='1文件准备'><span>1、文件准备</span></h2><p><a href='https://github.com/AlistGo/alist/releases'><span>Alist官方文件安装包</span></a></p><p><span>根据Windows系统架构选择相应安装包</span><img src="/img/Alist/p1.png" referrerpolicy="no-referrer" alt="p1"></p><p><em><strong><span style="color:red"><span>默认下载后缀amd64的ZIP文件</span></span></strong></em></p><h2 id='2本地启动服务'><span>2、本地启动服务</span></h2><p><span>解压下载好的ZIP文件，默认只有 </span><em><strong><span style="color:red"><span>alist.exe 文件</span></span></strong></em><span>  </span></p><p><em><strong><span style="color:skyblue"><span>图中的data目录是alist服务启动后的数据文件，其他文件为Alist的开启自启动脚本文件，下面会讲到如何设置</span></span></strong></em></p><p><img src="/img/Alist/p2.png" referrerpolicy="no-referrer" alt="p2"></p><p><span>在地址栏输入cmd，打开cmd命令窗口,</span><em><strong><span>运行下方命令</span></strong></em></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="alist.exe server"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="alist.exe server"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 12.3958px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">alist server</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 29px;"></div><div class="CodeMirror-gutters" style="display: none; height: 29px;"></div></div></div></pre><p><em><strong><span style="color:#f07c82"><span>运行结果如下图所示</span></span></strong></em></p><p><img src="/img/Alist/p3.png" referrerpolicy="no-referrer" alt="p3"></p><h2 id='3访问alist-ui-页面'><span>3、访问Alist UI 页面</span></h2><p><span>浏览器地址栏输入 </span><em><strong><span style="color:#f07c82"><span>localhost:5244 或者127p.0.0.1:5244</span></span></strong></em><span>  </span></p><p><strong><span>访问效果如下</span></strong><span> </span><em><strong><span style="color:#f07c82"><span>用户名默认为admin，密码为启动服务时给出的初始密码。后面可以对用户名及密码进行更改</span></span></strong></em><span>  </span></p><p><img src="/img/Alist/p4.png" referrerpolicy="no-referrer" alt="p4"></p><p><em><strong><span>登录后，页面效果如下，本人已经挂载过相关网盘、本机存储</span></strong></em></p><p><img src="/img/Alist/p5.png" referrerpolicy="no-referrer" alt="p5"></p><p><span>我们可以在页脚部分的管理栏内进行，存储添加，用户配置等一系列操作</span></p><p><span>相关操作请参考官方文档，描述的很详细</span></p><p><a href='https://alist.nn.ci/'><span>Alist官方文档</span></a></p><p><img src="/img/Alist/p6.png" referrerpolicy="no-referrer" alt="p6"></p><h2 id='4配置开机自启动'><span>4、配置开机自启动</span></h2><p><em><strong><span style="color:#f07c82"><span>相关脚本文件在此链接的Alist自启动目录下，请自行下载</span></span></strong></em><span>  </span><a href='alist.xiaozhangya.xin'><span>文件下载地址</span></a></p><p><span>将下载好的脚本文件移动到</span><em><strong><span>alist安装目录</span></strong></em><span> </span><em><strong><span>；</span></strong></em></p><p><em><strong><span>为run.vbs文件创建快捷方式</span></strong></em><span>；</span><em><strong><span style="color:red"><span>win+R 输入：shell:startup</span></span></strong></em><span>  </span></p><p><img src="/img/Alist/p7.png" referrerpolicy="no-referrer" alt="p7"></p><p><strong><span>将run.vbs快捷方式文件拖动到</span></strong><span> </span><em><strong><span style="color:red"><span>上方shell:startup运行后显示的目录</span></span></strong></em><span>   </span><strong><span>如下图所示</span></strong></p><p><img src="/img/Alist/p8.png" referrerpolicy="no-referrer" alt="p8"></p><p><em><strong><span style="color:red"><span>自此Alist本地部署完成，可以快乐的开始完耍了😄🎇</span></span></strong></em></p><p>&nbsp;</p></div></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toc = document.createElement("div");
+  toc.id = "toc";
+  toc.innerHTML = "<h2>📑 目录</h2><ul id='toc-list'></ul>";
+  document.body.appendChild(toc);
+  const tocList = document.getElementById("toc-list");
+
+  const headers = document.querySelectorAll("h1, h2, h3");
+  headers.forEach((header, index) => {
+    const id = "toc-" + index;
+    header.id = id;
+
+    const li = document.createElement("li");
+    li.style.marginLeft = (parseInt(header.tagName[1]) - 1) * 10 + "px";
+
+    const a = document.createElement("a");
+    a.href = "#" + id;
+    a.textContent = header.textContent;
+
+    li.appendChild(a);
+    tocList.appendChild(li);
+  });
+});
+</script>
+
 </body>
 </html>
