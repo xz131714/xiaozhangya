@@ -12,8 +12,8 @@ const config = {
 
   // 颜色配置
   color: {
-    themecolor: "#FFFFFF", // 主题颜色，推荐趋于亮白可带有轻微色调，例： #D1FFEC
-    welcometitlecolor: "#FFFFFF", // 标题颜色 例： #7BFFC9
+    themecolor: "#F9FAFB", // 主题颜色，推荐趋于亮白可带有轻微色调，例： #D1FFEC
+    welcometitlecolor: "#FF9AA2", // 标题颜色 例： #7BFFC9
   },
   
   brightness: 85, // 背景亮度 --%
@@ -133,8 +133,7 @@ const config = {
   //项目卡片 其中 字段"show"控制初始卡片的text是否展开
   projectcards:[ 
     {go:"🚀 前往",img:"https://alist.nn.ci/logo.svg",title:"小张的秘密基地",subtitle:"1,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://alist.xiaozhangya.xin",show:false},
-    {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Project 2",subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"url: "/mdviewer/快速排序"
-",show:false},
+    {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Project 2",subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"url: "url: "/mdviewer/快速排序",show:false},
     // {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"xiaozhangya.vercel.app",show:false},
     // {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"xiaozhangya.vercel.app",show:false},
     // {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"xiaozhangya.vercel.app",show:false},
