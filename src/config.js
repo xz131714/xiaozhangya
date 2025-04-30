@@ -70,7 +70,7 @@ const config = {
   musicPlayer:{
     server: 'tencent',  //服务提供商 --网易云音乐
     type: 'playlist',   //歌单类型
-    id: '2390975247'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+    id: '9397896474'  //歌单id ---> music.163.com/#/playlist?id=2028178887
   },
 
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
