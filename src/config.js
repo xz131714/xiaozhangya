@@ -3,11 +3,11 @@ const config = {
   metaData:{
     title: '小张的个人主页🎉',
     description: '欢迎来到小张的奇妙世界！',
-    keywords: 'Leleo,leleo,个人主页,个人网站',
+    keywords: '小张,小张,个人主页,个人网站',
     icon: '/favicon.ico'   //网页图标，支持外链
   },
 
-  avatar: "/img/avatar.jpg", // 头像
+  avatar: "/img/head.jpg", // 头像
   welcometitle: "Hi, I'm Xiaozhang", // 标题
 
   // 颜色配置
