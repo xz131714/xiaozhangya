@@ -134,7 +134,7 @@ const config = {
   projectcards:[ 
     {go:"🚀 前往",img:"https://alist.nn.ci/logo.svg",title:"小张的秘密基地",subtitle:"1,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://alist.xiaozhangya.xin",show:false},
     {go:"🗂️ 前往", img:"/img/flower.jpg", title:"Quick Sort", subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.", url:"/MD/quick sort.html", show:false},
-    // {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"xiaozhangya.vercel.app",show:false},
+    {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"/pages/AlistDeploye.html",show:false},
     // {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"xiaozhangya.vercel.app",show:false},
     // {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"xiaozhangya.vercel.app",show:false},
     // {go:"🎨 前往",img:"/img/sunshine.jpg",title:"Project 6",subtitle:"6,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"xiaozhangya.vercel.app",show:false},
