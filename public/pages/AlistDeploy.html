@@ -732,12 +732,21 @@ header, .context-menu, .megamenu-content, footer{
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  // 创建目录容器
   const toc = document.createElement("div");
   toc.id = "toc";
-  toc.innerHTML = "<h2>📑 目录</h2><ul id='toc-list'></ul>";
-  document.body.appendChild(toc);
-  const tocList = document.getElementById("toc-list");
 
+  // 创建切换按钮和内容容器
+  toc.innerHTML = `
+    <h2 style="display:flex; justify-content:space-between; align-items:center;">
+      📑 目录
+      <button id="toggle-toc" style="font-size:12px; padding:2px 6px;">收起</button>
+    </h2>
+    <ul id="toc-list"></ul>
+  `;
+  document.body.appendChild(toc);
+
+  const tocList = document.getElementById("toc-list");
   const headers = document.querySelectorAll("h1, h2, h3");
   headers.forEach((header, index) => {
     const id = "toc-" + index;
@@ -752,6 +761,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     li.appendChild(a);
     tocList.appendChild(li);
+  });
+
+  // 添加展开/收起功能
+  const toggleBtn = document.getElementById("toggle-toc");
+  toggleBtn.addEventListener("click", function () {
+    if (tocList.style.display === "none") {
+      tocList.style.display = "block";
+      toggleBtn.textContent = "收起";
+    } else {
+      tocList.style.display = "none";
+      toggleBtn.textContent = "展开";
+    }
   });
 });
 </script>
