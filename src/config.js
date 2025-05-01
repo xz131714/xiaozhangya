@@ -27,17 +27,17 @@ const config = {
     "pc":{   //pc端
       "type":"pic",   //"pic":静态壁纸;"video":动态壁纸
       "datainfo":{
-        "title":"海洋女孩", 
-        "preview":"/img/wallpaper/static/海洋女孩/image-pre.webp",
-        "url":"/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "title":"cvKMKhue", 
+        "preview":"https://file.uhsea.com/2503/7a693bf725b501e0907ce40f18d2edc49P.png",
+        "url":"https://file.uhsea.com/2503/55e7191130d160a8e4421497308ffb67DT.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
-      "type":"pic",
+      "type":"video",
       "datainfo":{
-        "title":"0001", 
-        "preview":"/img/wallpaper/static-mobile/0001/image-pre.webp",
-        "url":"/img/wallpaper/static-mobile/0001/image.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+        "title":"Doodle-小猫女仆降临", 
+        "preview":"/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12-pre.mp4",
+        "url":"/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12.mp4"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
       }
     }
       
