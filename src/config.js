@@ -33,11 +33,11 @@ const config = {
       },
     },
     "mobile":{   //移动端
-      "type":"video",
+      "type":"pic",
       "datainfo":{
-        "title":"Doodle-小猫女仆降临", 
-        "preview":"/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12-pre.mp4",
-        "url":"/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12.mp4"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+        "title":"003", 
+        "preview":"/img/wallpaper/static-mobile/0003/image-pre.webp",
+        "url":"/img/wallpaper/static-mobile/0003/image.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
       }
     }
       
@@ -70,7 +70,7 @@ const config = {
   musicPlayer:{
     server: 'tencent',  //服务提供商 --网易云音乐
     type: 'playlist',   //歌单类型
-    id: '9397896474'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+    id: '9485837212'  //歌单id ---> music.163.com/#/playlist?id=2028178887
   },
 
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
