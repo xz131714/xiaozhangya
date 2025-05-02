@@ -27,9 +27,9 @@ const config = {
     "pc":{   //pc端
       "type":"pic",   //"pic":静态壁纸;"video":动态壁纸
       "datainfo":{
-        "title":"cvKMKhue", 
-        "preview":"https://file.uhsea.com/2503/7a693bf725b501e0907ce40f18d2edc49P.png",
-        "url":"https://file.uhsea.com/2503/55e7191130d160a8e4421497308ffb67DT.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "title":"看书女孩", 
+        "preview":"/img/wallpaper/static/看书女孩/image-pre.webp",
+        "url":"/img/wallpaper/static/看书女孩/image.webp",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
@@ -76,6 +76,7 @@ const config = {
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
   wallpaper:{
     pic:[
+      {"title":"看书女孩","preview":"/img/wallpaper/static/看书女孩/image-pre.webp","url":"/img/wallpaper/static/看书女孩/image.png"},
       {"title":"海洋女孩","preview":"/img/wallpaper/static/海洋女孩/image-pre.webp","url":"/img/wallpaper/static/海洋女孩/image.png"},
       {"title":"书房夜晚","preview":"/img/wallpaper/static/书房夜晚/image-pre.webp","url":"/img/wallpaper/static/书房夜晚/image.png"},
       {"title":"安逸舒适","preview":"/img/wallpaper/static/安逸舒适/image-pre.webp","url":"/img/wallpaper/static/安逸舒适/image.png"},
