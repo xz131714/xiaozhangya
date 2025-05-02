@@ -29,7 +29,7 @@ const config = {
       "datainfo":{
         "title":"看书女孩", 
         "preview":"/img/wallpaper/static/看书女孩/image-pre.webp",
-        "url":"/img/wallpaper/static/看书女孩/image.webp",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "url":"/img/wallpaper/static/看书女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
