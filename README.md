@@ -47,7 +47,7 @@
 1. 克隆仓库：
 
 ```bash
-git clone https://github.com/leleo886/leleo-home-page.git
+git clone https://github.com/xz131714/xiaozhangya.git
 ```
 
 2. 进入项目目录：
