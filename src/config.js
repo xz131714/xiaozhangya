@@ -27,9 +27,9 @@ const config = {
     "pc":{   //pc端
       "type":"pic",   //"pic":静态壁纸;"video":动态壁纸
       "datainfo":{
-        "title":"看书女孩", 
-        "preview":"/img/wallpaper/static/看书女孩/image-pre.webp",
-        "url":"/img/wallpaper/static/看书女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "title":"冰川", 
+        "preview":"/img/wallpaper/static/冰川/image-pre.webp",
+        "url":"/img/wallpaper/static/冰川/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
