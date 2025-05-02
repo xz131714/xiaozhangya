@@ -76,6 +76,8 @@ const config = {
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
   wallpaper:{
     pic:[
+      {"title":"看书女孩","preview":"/img/wallpaper/static/冰川/image-pre.webp","url":"/img/wallpaper/static/冰川/image.png"},
+      {"title":"看书女孩","preview":"/img/wallpaper/static/海鸥/image-pre.webp","url":"/img/wallpaper/static/海鸥/image.png"},
       {"title":"看书女孩","preview":"/img/wallpaper/static/看书女孩/image-pre.webp","url":"/img/wallpaper/static/看书女孩/image.png"},
       {"title":"海洋女孩","preview":"/img/wallpaper/static/海洋女孩/image-pre.webp","url":"/img/wallpaper/static/海洋女孩/image.png"},
       {"title":"书房夜晚","preview":"/img/wallpaper/static/书房夜晚/image-pre.webp","url":"/img/wallpaper/static/书房夜晚/image.png"},
